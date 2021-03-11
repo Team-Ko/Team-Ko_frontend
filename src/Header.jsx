@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import './App.css';
 import './css/Header.css';
 
+// 헤더 컴포넌트
 const Header = () => {
     return (
     <div className="App">
