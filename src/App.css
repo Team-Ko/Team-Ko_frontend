@@ -16,3 +16,10 @@ img {
   border: 0;
   vertical-align: top;
 }
+.card_warp {
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  margin-top: 5%;
+}
