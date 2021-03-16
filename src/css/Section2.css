@@ -35,3 +35,34 @@ h3 {
     font-size: 15px;
     line-height: 2em;
 }
+.section2_box {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 7vh;
+}
+.section2_btn1 {
+    border: 1px solid rgb(155, 44, 60);
+    color: rgb(155, 44, 60);
+    width: 170px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.section2_btn2 {
+    border: 1px solid rgb(155, 44, 60);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 170px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+}
