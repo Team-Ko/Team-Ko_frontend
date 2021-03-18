@@ -7,7 +7,7 @@
 .card {
     width: 25%;
     height: 50vh;
-    margin-right: 5%;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
 .list {
     width: 100%;
@@ -30,7 +30,7 @@ button {
     text-align: left;
 }
 .left-text {
-    padding-left: 15px;
+    padding-left: 10px;
 }
 .job {
     font-size: 14px;

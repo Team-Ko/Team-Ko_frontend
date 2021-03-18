@@ -5,7 +5,7 @@ const Section2 = () => {
     return (
         <div className="section2">
             <div className="left">
-            <img className="section2_img" src="/images/cat.png" alt="고양이"/>
+                <img className="section2_img" src="/images/cat.png" alt="고양이"/>
             </div>
             <div className="right">
                 <h2 className="section2_h2">신동현의 코는 진짜인가</h2>
