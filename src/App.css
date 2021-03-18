@@ -18,8 +18,11 @@ img {
 }
 .card_warp {
   width: 100%;
-  margin-left: 10%;
-  margin-right: 10%;
+  justify-content: space-around;
   display: flex;
   margin-top: 5%;
+}
+.footer_logo {
+  display: block;
+  margin: 0 auto;
 }
