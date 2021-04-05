@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# 이 남자들의 팀 코 프로젝트
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+팀장 : 고한혁
+팀원 : 김한새, 노윤탁, 신동현
 
 ## Available Scripts
 
