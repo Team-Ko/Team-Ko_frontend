@@ -38,7 +38,7 @@ const Header = () => {
     return(
         <Container>
             <Img>
-            <img src={Image} alt="로고"/>
+            <img src={Image} alt="로고" style={{paddingTop:"35px"}}/>
             </Img>
             <Menu>
                 <MenuButton style={{marginLeft:"110px"}}>회사소개</MenuButton>
