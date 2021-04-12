@@ -1,4 +1,4 @@
-import React, {} from 'react';
+import React, { } from 'react';
 import styled from 'styled-components';
 import Image from '../Images/TG삼보.png';
 
@@ -35,18 +35,18 @@ const MenuButton = styled.div`
 `;
 
 const Header = () => {
-    return(
+    return (
         <Container>
             <Img>
-            <img src={Image} alt="로고" style={{paddingTop:"30px"}}/>
+                <img src={Image} alt="로고" style={{ paddingTop: "30px" }} />
             </Img>
             <Menu>
-                <MenuButton style={{marginLeft:"110px"}}>회사소개</MenuButton>
+                <MenuButton style={{ marginLeft: "5.7%" }}>회사소개</MenuButton>
                 <MenuButton>제품소개</MenuButton>
                 <MenuButton>사업분야</MenuButton>
                 <MenuButton>공지사항</MenuButton>
                 <MenuButton>고객지원</MenuButton>
-                <MenuButton>메일문의</MenuButton>
+                <MenuButton style={{ marginRight: "5.7%" }}>메일문의</MenuButton>
             </Menu>
         </Container>
     );
