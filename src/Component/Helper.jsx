@@ -3,14 +3,14 @@ import styled from 'styled-components';
 import a from '../Images/a.png';
 
 const Container = styled.div`
-    width : 1903px;
+    width : 100%;
     height : 450px;
     background-color: white;
     display: flex;
 `;
 
 const Logo = styled.div`
-    width : 1920px;
+    width : 25%;
     height : 100%;
     background-color: white;
     text-align: center;
