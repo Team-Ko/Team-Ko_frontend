@@ -18,7 +18,8 @@ function SampleNextArrow(props) {
         ...style,
         position: "absolute",
         right: "5vw",
-        top: "50%"
+        top: "50%",
+
       }}
       onClick={onClick}
     />
@@ -46,7 +47,22 @@ const Container = styled.div`
     width: 1920px;
     height: 500px;
     text-align: center;
-    
+    & > img {
+      width: 1920px;
+      height:500px;
+    }
+    & > .slick-prev:before,
+        .slick-next:before {
+          font-family: 'slick';
+          font-size: 20px;
+          line-height: 1;
+
+          opacity: .75;
+          color: black;
+
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        }
 `;
 
 
@@ -57,7 +73,7 @@ const settings = {
   slidesToShow: 1,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 3000,
+  autoplaySpeed: 2500,
   pauseOnHover: true,
   nextArrow: <SampleNextArrow />,
   prevArrow: <SamplePrevArrow />,
@@ -75,11 +91,11 @@ const settings = {
 const Slide = () => {
   return (
     <Slider {...settings}>
-      <Container> <img src={Slide1} alt='image1'/></Container>
-      <Container> <img src={Slide2} alt='image2'/></Container>
-      <Container> <img src={Slide3} alt='image3'/></Container>
-      <Container> <img src={Slide4} alt='image4'/></Container>
-      <Container> <img src={Slide5} alt='image5'/></Container>
+      <Container> <img src={Slide1} alt='image1' /></Container>
+      <Container> <img src={Slide2} alt='image2' /></Container>
+      <Container> <img src={Slide3} alt='image3' /></Container>
+      <Container> <img src={Slide4} alt='image4' /></Container>
+      <Container> <img src={Slide5} alt='image5' /></Container>
     </Slider>
   );
 }
