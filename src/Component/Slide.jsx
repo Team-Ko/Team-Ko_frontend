@@ -19,7 +19,13 @@ function SampleNextArrow(props) {
         position: "absolute",
         right: "5vw",
         top: "50%",
-
+        // width : '40px',
+        // height : '40px',
+        // backgroundColor : 'red',
+        // display : 'flex',
+        // alignItems : 'center',
+        // textAlign : 'center',
+        // justifyContent: 'center'
       }}
       onClick={onClick}
     />
@@ -36,7 +42,7 @@ function SamplePrevArrow(props) {
         position: "absolute",
         left: "5vw",
         top: "50%",
-        zIndex: '1'
+        zIndex: '1',
       }}
       onClick={onClick}
     />
@@ -51,7 +57,7 @@ const Container = styled.div`
       width: 1920px;
       height:500px;
     }
-    & > .slick-prev:before,
+    /* & > .slick-prev:before,
         .slick-next:before {
           font-family: 'slick';
           font-size: 20px;
@@ -62,7 +68,7 @@ const Container = styled.div`
 
           -webkit-font-smoothing: antialiased;
           -moz-osx-font-smoothing: grayscale;
-        }
+        } */
 `;
 
 
