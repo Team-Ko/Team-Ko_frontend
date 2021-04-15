@@ -19,7 +19,6 @@ background-image: url(${GreenSwichImg});
 background-size: 100% 498px;
 background-repeat: no-repeat;
 opacity: 0.7;
-line-height : 500px;
 padding-top : 187.5px;
 & > img {
     display : block;
