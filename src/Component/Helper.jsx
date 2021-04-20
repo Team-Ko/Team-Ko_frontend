@@ -6,9 +6,10 @@ import ebook from '../Images/ebook.png';
 import trophy from '../Images/trophy.png';
 
 const Container = styled.div`
-    width : 100%;
+    width : 80%;
     height : 450px;
     background-color: white;
+    margin : 0 auto;
     display: flex;
 `;
 
