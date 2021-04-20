@@ -15,25 +15,35 @@ const Left = styled.div`
 width : 50%;
 height : 500px;
 border-right : 1px solid black;
-background-image: url(${GreenSwichImg});
 background-size: 100% 498px;
 background-repeat: no-repeat;
-opacity: 0.7;
 padding-top : 187.5px;
+position: relative;
+&::before {
+    content: "";
+    background-image: url(${GreenSwichImg});
+    opacity: 0.7;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
 & > img {
     display : block;
     margin : auto;
     width : 125px;
     height : 125px;
-    opacity: 1;
-    
+    position: relative;
 }
 `;
 
 const GreenSwich = () => {
     return (
         <Container>
-            <Left><img src={youtube} alt="유튜브"/></Left>
+            <Left><img src={youtube} alt="유튜브"></img></Left>
         </Container>
     );
 }
