@@ -30,8 +30,14 @@ position: relative;
     right: 0px;
     bottom: 0px;
 }
-
-& > img {
+& > a {
+    display : block;
+    margin : auto;
+    width : 125px;
+    height : 125px;
+    position: relative;
+}
+& > a > img {
     display : block;
     margin : auto;
     width : 125px;
@@ -43,7 +49,7 @@ position: relative;
 const GreenSwich = () => {
     return (
         <Container>
-            <Left><img src={youtube} alt="유튜브"></img></Left>
+            <Left><a href="https://www.youtube.com/watch?v=2T6eUC2cpyU"><img src={youtube} alt="유튜브"></img></a></Left>
         </Container>
     );
 }
