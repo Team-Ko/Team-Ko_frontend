@@ -3,12 +3,13 @@ import styled from 'styled-components';
 import Header from '../Component/Header';
 import Slide from '../Component/Slide';
 import Helper from '../Component/Helper';
-import GreenSwich from '../Component/GreenSwich';
+import Content from '../Component/Content';
 
 const Container = styled.div`
     width : 100%;
     height: 100vh;
 `;
+
 
 const Main = () => {
     return(
@@ -16,7 +17,7 @@ const Main = () => {
             <Header />
             <Slide />
             <Helper />
-            <GreenSwich />
+            <Content />
         </Container>
     );
 }
