@@ -4,6 +4,7 @@ import Header from '../Component/Header';
 import Slide from '../Component/Slide';
 import Helper from '../Component/Helper';
 import Content from '../Component/Content';
+import Footer from '../Component/Footer';
 
 const Container = styled.div`
     width : 100%;
@@ -18,6 +19,7 @@ const Main = () => {
             <Slide />
             <Helper />
             <Content />
+            <Footer />
         </Container>
     );
 }
