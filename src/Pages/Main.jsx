@@ -7,7 +7,7 @@ import Content from '../Component/Content';
 import Footer from '../Component/Footer';
 
 const Container = styled.div`
-    width : 100%;
+    width : 1920px;
     height: 100vh;
 `;
 
