@@ -87,6 +87,15 @@ const ScreenImage = [
     contents_image6
 ]
 
+const Link = [
+    "https://www.trigem.co.kr/provide/provide_product_view.jsp?productGubun=DPC&productSeq=476&productNo=",
+    "https://www.trigem.co.kr/provide/provide_product_view.jsp?productGubun=TPC&productSeq=428&productNo=",
+    "https://www.trigem.co.kr/provide/provide_product_view.jsp?productGubun=DOPC&productSeq=484&productNo=",
+    "https://www.trigem.co.kr/provide/provide_product_view.jsp?productGubun=NPC&productSeq=497&productNo=",
+    "https://www.trigem.co.kr/provide/provide_product_view.jsp?productGubun=DISP&productSeq=455&productNo=",
+    "https://www.trigem.co.kr/provide/provide_product_view.jsp?productGubun=SERV&productSeq=196&productNo=53010669"
+]
+
 const Logo = styled.div`
     width : 100%;
     height : 200px;
@@ -145,13 +154,13 @@ const ScreenImg = styled.img`
 
 const Content = () => {
 
-    const [image, setImage] = useState(0);
+    const [num, setNum] = useState(0);
 
     return (
         <Container>
             <Side>
                 {Left.map(list => (
-                    <Logo onClick={() => setImage(list.num)}>
+                    <Logo onClick={() => setNum(list.num)}>
                         <ImgBox>
                             <LogoImg src={list.img} />
                         </ImgBox>
@@ -160,11 +169,11 @@ const Content = () => {
                 ))}
             </Side>
             <Screen>
-                <ScreenImg key={image} src={ScreenImage[image]} alt="Screen" />
+                <a href={Link[num]}><ScreenImg key={num} src={ScreenImage[num]} alt="Screen" /></a>
             </Screen>
             <Side>
                 {Right.map(list => (
-                    <Logo onClick={() => setImage(list.num)}>
+                    <Logo onClick={() => setNum(list.num)}>
                         <ImgBox>
                             <LogoImg src={list.img} />
                         </ImgBox>

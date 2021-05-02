@@ -97,11 +97,11 @@ const settings = {
 const Slide = () => {
   return (
     <Slider {...settings}>
-      <Container> <img src={Slide1} alt='image1' /></Container>
-      <Container> <img src={Slide2} alt='image2' /></Container>
-      <Container> <img src={Slide3} alt='image3' /></Container>
-      <Container> <img src={Slide4} alt='image4' /></Container>
-      <Container> <img src={Slide5} alt='image5' /></Container>
+      <a href="https://www.trigem.co.kr/provide/provide_product_view.jsp?productGubun=DISP&productSeq=429&productNo="><Container> <img src={Slide1} alt='image1'/></Container></a>
+      <a href="https://www.trigem.co.kr/provide/provide_product_view.jsp?productGubun=DPC&productSeq=476&productNo="><Container> <img src={Slide2} alt='image2' /></Container></a>
+      <a href="https://www.trigem.co.kr/provide/provide_product_view.jsp?productGubun=TPC&productSeq=428&productNo="><Container> <img src={Slide3} alt='image3' /></Container></a>
+      <a href="https://www.trigem.co.kr/provide/provide_product_view.jsp?productGubun=DOPC&productSeq=484&productNo="><Container> <img src={Slide4} alt='image4' /></Container></a>
+      <a href="https://www.trigem.co.kr/provide/provide_product_view.jsp?productGubun=NPC&productSeq=497&productNo="><Container> <img src={Slide5} alt='image5' /></Container></a>
     </Slider>
   );
 }
