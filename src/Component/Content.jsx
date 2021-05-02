@@ -6,8 +6,12 @@ import one_PC from '../Images/one_PC.png';
 import labtap from '../Images/labtap.png';
 import moniter from '../Images/moniter.png';
 import tablePC from '../Images/tablePC.png';
-import contents_image1 from '../Images/contents_image 1.png';
-import contents_image2 from '../Images/contents_image 2.png';
+import contents_image1 from '../Images/contents_image_1.png';
+import contents_image2 from '../Images/contents_image_2.png';
+import contents_image3 from '../Images/contents_image_3.png';
+import contents_image4 from '../Images/contents_image_4.png';
+import contents_image5 from '../Images/contents_image_5.png';
+import contents_image6 from '../Images/contents_image_6.png';
 
 const Container = styled.div`
     width : 1350px;
@@ -77,7 +81,10 @@ const Right = [
 const ScreenImage = [
     contents_image1,
     contents_image2,
-    one_PC
+    contents_image3,
+    contents_image4,
+    contents_image5,
+    contents_image6
 ]
 
 const Logo = styled.div`
@@ -103,7 +110,7 @@ const ImgBox = styled.div`
     justify-content: center;
     align-items: center;
     &:hover {
-        background-color: pink;
+        background-color: skyblue;
         cursor: pointer;
         transition: 0.3s ease-in;    
     }
